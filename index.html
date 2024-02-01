@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/fav-icon.png" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>CambrigeStock</title>
+  </head>
+  <body>
+    <!--==Navigation================================-->
+    <nav class="navigation">
+      <!--logo-------->
+      <a href="index.html" class="logo"> <span>Cambrige</span>Stock </a>
+      <!--menu-btn---->
+      <input type="checkbox" class="menu-btn" id="menu-btn" />
+      <label for="menu-btn" class="menu-icon">
+        <span class="nav-icon"></span>
+      </label>
+      <!--menu-------->
+      <ul class="menu">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="#category">Categories</a></li>
+        <li><a href="#popular-bundle-pack">Products</a></li>
+        <li><a href="#download-app">About Us</a></li>
+      </ul>
+      <!--right-nav-(cart-like)-->
+      <div class="right-nav">
+        <!--like----->
+        <a href="#" class="like">
+          <i class="far fa-heart"></i>
+          <span>0</span>
+        </a>
+        <!--cart----->
+        <a href="#" class="cart">
+          <i class="fas fa-shopping-cart"></i>
+          <span>0</span>
+        </a>
+      </div>
+    </nav>
+    <!--nav-end--------------------->
+    <!--==Search-banner=======================================-->
+    <section id="search-banner">
+      <!--bg--------->
+      <img src="D:\eGrocery\images/bg-1.png" class="bg-1" alt="bg" />
+      <img src="D:\eGrocery\images/bg-2.png" class="bg-2" alt="bg-2" />
+      <!--text------->
+      <div class="search-banner-text">
+        <h1>Order Anything With a Click of a Button</h1>
+        <strong>#Fast Delivery</strong>
+        <!--search-box------>
+        <form action="" class="search-box">
+          <!--icon------>
+          <i class="fas fa-search"></i>
+          <!--input----->
+          <input
+            type="text"
+            class="search-input"
+            placeholder="Search your daily groceries"
+            name="search"
+            required
+          />
+          <!--btn------->
+          <input type="submit" class="search-btn" value="Search" />
+        </form>
+      </div>
+    </section>
+    <!--search-banner-end--------------->
+    <!--==category=========================================-->
+    <section id="category">
+      <!--heading---------------->
+      <div class="category-heading">
+        <h2>Category</h2>
+        <span>All</span>
+      </div>
+      <!--box-container---------->
+      <div class="category-container">
+        <!--box---------------->
+        <a href="#" class="category-box">
+          <img src="football.jpg" alt="Fish" />
+          <span>FootBalls</span>
+        </a>
+        <!--box---------------->
+        <a href="#" class="category-box">
+          <img src="Watches.webp" alt="Fish" />
+          <span>Watches</span>
+        </a>
+        <!--box---------------->
+        <a href="#" class="category-box">
+          <img src="Smart watches.jpg" alt="Fish" />
+          <span>Smart Watches</span>
+        </a>
+        <!--box---------------->
+        <a href="#" class="category-box">
+          <img src="gum.jpg" alt="Fish" />
+          <span>Gum</span>
+        </a>
+        <!--box---------------->
+        <a href="#" class="category-box">
+          <img src="snaks.jpg" alt="Fish" />
+          <span>Snacks</span>
+        </a>
+        <!--box---------------->
+        <a href="#" class="category-box">
+          <img src="chocaltes.jpg" alt="Fish" />
+          <span>Chocaltes</span>
+        </a>
+        <!--box---------------->
+        <a href="#" class="category-box">
+          <img src="books.jpg" alt="Fish" />
+          <span>Books</span>
+        </a>
+      </div>
+    </section>
+    <!--category-end----------------------------------->
+    <!--==Products====================================-->
+    <section id="popular-product">
+      <!--heading----------->
+      <div class="product-heading">
+        <h3>Products</h3>
+        <span>All</span>
+      </div>
+      <!--box-container------>
+      <div class="product-container">
+        <!--box---------->
+        <div class="product-box">
+          <img src="gum.jpg" alt="apple" />
+          <strong>Wrigley's Extra Gum Peppermint Chewing Gum</strong>
+          <span class="quantity">Per 1</span>
+          <span class="price">AED 0.75</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        <div class="product-box">
+          <img src="footballreal.webp" alt="apple" />
+          <strong>NIVIA Football Size-5, Storm White</strong>
+          <span class="quantity">1 Quantity</span>
+          <span class="price">AED 20</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        <div class="product-box">
+          <img src="smart watch real.jpg" alt="apple" />
+          <strong> T800 UItra Smart Watch Ultra  </strong>
+          <span class="quantity">1 </span>
+          <span class="price">AED 25 + Shipping</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        <div class="product-box">
+          <img src="smart watch real 2.jpg" alt="apple" />
+          <strong>T500 Smart Watch </strong>
+          <span class="quantity">1 </span>
+          <span class="price">AED 20 +Shipping</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        <div class="product-box">
+          <img src="footbal real.jpg" alt="apple" />
+          <strong>Mondo PVC Ball Soccer</strong>
+          <span class="quantity">1 </span>
+          <span class="price">AED 20 + Shipping</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        <div class="product-box">
+          <img src="watch real.jpg" alt="apple" />
+          <strong>Joleritc Watch</strong>
+          <span class="quantity">1 </span>
+          <span class="price">AED 10 + Shipping
+          </span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+  
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+
+
+        <div class="product-box">
+          <img src="watch real2.jpg" alt="apple" />
+          <strong>Silicon Bling Watch</strong>
+          <span class="quantity">1 Quantity</span>
+          <span class="price">AED 15 + Shipping</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+
+        <div class="product-box">
+          <img src="book real.jpg" alt="apple" />
+          <strong>Wimpy Kid: Meltdwom</strong>
+          <span class="quantity">1 Quantity</span>
+          <span class="price">AED 10</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+
+
+        <div class="product-box">
+          <img src="book real 2.jpg" alt="apple" />
+          <strong>Wimpy Kid: Diper Overload</strong>
+          <span class="quantity">1 Quantity</span>
+          <span class="price">AED 10</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        
+        <div class="product-box">
+          <img src="books real 3.jpg" alt="apple" />
+          <strong>Wimpy Kid: Hard Luck</strong>
+          <span class="quantity">1 Quantity</span>
+          <span class="price">AED 10</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        
+
+        <div class="product-box">
+          <img src="pen real.jpg" alt="apple" />
+          <strong>BallPoint Pen</strong>
+          <span class="quantity">1 Quantity</span>
+          <span class="price">AED 2</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>       
+        
+        
+        <div class="product-box">
+          <img src="gum real 1.jpg" alt="apple" />
+          <strong>Gum Pack</strong>
+          <span class="quantity">1 Pack</span>
+          <span class="price">AED 1.50</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>   
+
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+         </div>
+
+
+      </div>
+    </section>
+    <!--popular-product-end--------------------->
+    <!--Popular-bundle-pack===================================-->
+    <section id="popular-bundle-pack">
+      <!--heading-------------->
+      <div class="product-heading">
+        <h3>Popular Products</h3>
+      </div>
+      <!--box-container------>
+      <div class="product-container">
+        <!--box---------->
+        <div class="product-box">
+          <img src="footbal real.jpg" alt="pack" />
+          <strong>mondo PVC Ball Soccer</strong>
+          <span class="quantity">Mondo PVC Ball Soccer Exchange 23Cm, 26025MONDO</span>
+          <span class="price">AED 20 + Shipping</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        <div class="product-box">
+          <img src="book real 2.jpg" alt="apple" />
+          <strong>Wimpy Kid: Diper Overload</strong>
+          <span class="quantity">Wimpy kid: Diper Overload Book</span>
+          <span class="price">AED 10</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        <div class="product-box">
+          <img src="gum real 1.jpg" alt="apple" />
+          <strong>Gum</strong>
+          <span class="quantity">1 pack of Gum</span>
+          <span class="price">AED 1.50</span>
+          <!--cart-btn------->
+          <a href="#" class="cart-btn">
+            <i class="fas fa-shopping-bag"></i> Add Cart
+          </a>
+          <!--like-btn------->
+          <a href="#" class="like-btn">
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!--box---------->
+        
+
+          </a>
+        </div>
+      </div>
+    </section>
+    <!--popular-bundle-pack-end-------------------------------->
+    <!--==Clients===============================================-->
+    <section id="clients">
+      <!--heading---------------->
+      <div class="client-heading">
+        <h3>About Us</h3>
+      </div>
+      <!--box-container---------->
+      <div class="client-box-container">
+        <!--box------------->
+        <div class="client-box">
+          <!--==profile===-->
+          <div class="client-profile">
+            <!--img--->
+            <img src="cambrige.jpg" alt="client" />
+            <!--text-->
+            <div class="profile-text">
+              <strong>Cambrige Stock</strong>
+              <span>WEBSITE</span>
+            </div>
+          </div>
+          <!--==Rating======-->
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <!--==comments===-->
+          <p>
+            Cambrige Stock is a online store that is only dedicated to the students of Cambrige Internatinal School, Dubal. For a fast way to buy products Cheap. This website is Buit By Nash and Cambrige Stock  is owned By Hussien and Nash
+          </p>
+        </div>
+        <!--box------------->
+        <div class="client-box">
+          <!--==profile===-->
+          <div class="client-profile">
+            <!--img--->
+            <img src="cambrige.jpg" alt="client" />
+            <!--text-->
+            <div class="profile-text">
+              <strong>Nash</strong>
+              <span>Founder & Developer</span>
+            </div>
+          </div>
+          <!--==Rating======-->
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <!--==comments===-->
+          <p>
+            Mohammed Nash Nisham is the peron who built this website and founder of Cambrige Stock. Nash is a student of Cambrige Internatinal School, Dubai and a PRO Coder, And his nationality is India and is from The United Arab Emirates
+          </p>
+        </div>
+        <!--box------------->
+        <div class="client-box">
+          <!--==profile===-->
+          <div class="client-profile">
+            <!--img--->
+            <img src="cambrige.jpg" alt="client" />
+            <!--text-->
+            <div class="profile-text">
+              <strong>Hussien</strong>
+              <span>Founder</span>
+            </div>
+          </div>
+          <!--==Rating======-->
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <!--==comments===-->
+          <p>
+            Hussien Chamaiyse is a student in Cambrige Internatinal School, Dubai and a Pro gamer and his nationality is Palestine and is from the United Arab Emirates. Hussien is currently 11 Years old and his hieght is as short as a Pencil. He is the founder of Cambrige stock
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--client-section-end---------->
+    <!--==Partnre-logo================================-->
+   
+    <!--logo-section-end--------------------->
+    <!--==download-app====================================-->
+    <section id="download-app">
+      <!--img----------------------->
+      <div class="app-img">
+        <img src="cambrige.jpg" alt="app" />
+      </div>
+      <!--text---------------------->
+      <div class="download-app-text">
+        <strong>About Us</strong>
+        <p>
+          Cambrige Stock is a online store that is only dedicated to the students of Cambrige Internatinal School, Dubal. For a fast way to buy products Cheap. This website is Buit By Nash and Cambrige Stock  is owned By Hussien and Nash.
+        </p>
+        <!--btns------->
+        <div class="download-btns">
+          <a href="#"><img src="D:\eGrocery/images/appstore-btn.png" alt="" /></a>
+          <a href="#"><img src="D:\eGrocery/images/googleplay-btn.png" alt="" /></a>
+        </div>
+      </div>
+    </section>
+    <!--download-app-section-end------------------------->
+    <!--==Footer=============================================-->
+    <footer>
+      <div class="footer-container">
+        <!--logo-container------>
+        <div class="footer-logo">
+          <a href="#"><span>Cambrige</span>Stock</a>
+          <!--social----->
+          <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <!--links------------------------->
+        <div class="footer-links">
+          <strong>Product</strong>
+          <ul>
+            <li><a href="#">Footballs</a></li>
+            <li><a href="#">Watch</a></li>
+            <li><a href="#">Gum % Snacks</a></li>
+            <li><a href="#">Books</a></li>
+          </ul>
+        </div>
+        <!--links------------------------->
+        <div class="footer-links">
+          <strong>Category</strong>
+          <ul>
+            <li><a href="#">Football</a></li>
+            <li><a href="#">Watchs & Smart Watchs</a></li>
+            <li><a href="#">Books</a></li>
+            <li><a href="#">Snacks, Candy & Gum</a></li>
+          </ul>
+        </div>
+        <!--links-------------------------->
+        <div class="footer-links">
+          <strong>Contact</strong>
+          <ul>
+            <li><a href="#">Phone : +911</a></li>
+            <li><a href="#">Email : nashmn35@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
